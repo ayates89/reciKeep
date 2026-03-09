@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Recipe Form</title>
+    
 </head>
 <body>
 
@@ -11,6 +12,9 @@
     <form action="save-recipe.html" method="post">
         <label for="recipe-name">Recipe Name:</label>
         <input type="text" id="recipe-name" name="recipe-name" required><br><br>
+
+        <label for="category">Category:</label>
+        <textarea id="ingredients" name="ingredients" required></textarea><br><br>
 
         <label for="ingredients">Ingredients:</label>
         <textarea id="ingredients" name="ingredients" required></textarea><br><br>
@@ -24,9 +28,8 @@
 
     <br>
     <br
-
-       <section class ="section">
+            <div class="link">
                     <a href="index.html">Back to Home Page</a>
-                    </section>  
+             </div>  
 </body>
 </html>
